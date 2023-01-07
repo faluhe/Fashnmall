@@ -68,7 +68,6 @@ class ProfileViewController: UIViewController, WKUIDelegate, WKNavigationDelegat
         let url = URL(string: "https://fashnmall.com/account/login")
         webView.load(URLRequest(url: url!))
         webView.allowsBackForwardNavigationGestures = true
-        
     }
     
     
@@ -82,9 +81,6 @@ class ProfileViewController: UIViewController, WKUIDelegate, WKNavigationDelegat
             navigationController?.navigationBar.standardAppearance = appearance
             navigationController?.navigationBar.standardAppearance.shadowImage = UIImage()
             navigationController?.navigationBar.standardAppearance.shadowColor = .clear
-            
-        } else {
-            // Fallback on earlier versions
         }
     }
     
@@ -98,7 +94,6 @@ class ProfileViewController: UIViewController, WKUIDelegate, WKNavigationDelegat
             webView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
     }
-    
     
     
     //MARK:- WKNavigationDelegate
