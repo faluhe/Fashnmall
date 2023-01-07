@@ -50,9 +50,7 @@ class CartViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
             navigationController?.navigationBar.standardAppearance.shadowImage = UIImage()
             navigationController?.navigationBar.standardAppearance.shadowColor = .clear
             
-        } else {
-            // Fallback on earlier versions
-        }
+        } 
     }
     
     
