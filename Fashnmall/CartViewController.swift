@@ -49,9 +49,6 @@ class CartViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
             navigationController?.navigationBar.standardAppearance = appearance
             navigationController?.navigationBar.standardAppearance.shadowImage = UIImage()
             navigationController?.navigationBar.standardAppearance.shadowColor = .clear
-            
-        } else {
-            // Fallback on earlier versions
         }
     }
     
@@ -80,7 +77,7 @@ class CartViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         activityIndicator.style = UIActivityIndicatorView.Style.gray
         view.addSubview(activityIndicator)
         
-        let url = URL(string: "https://fashnmall.com/cart")
+        let url = URL(string: "https://fashnmall.com/cart") 
         webView.load(URLRequest(url: url!))
         webView.allowsBackForwardNavigationGestures = true
         
