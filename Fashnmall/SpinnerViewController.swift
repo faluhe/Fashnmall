@@ -7,6 +7,7 @@
 
 import UIKit
 
+//MARK: - Spinning VC
 class SpinnerViewController: UIViewController {
     
     var spinner = UIActivityIndicatorView(style: .gray)
@@ -25,10 +26,5 @@ class SpinnerViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
     }
-    
-    
-    
 }
