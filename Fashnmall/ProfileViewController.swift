@@ -121,6 +121,5 @@ class ProfileViewController: UIViewController, WKUIDelegate, WKNavigationDelegat
     func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
         print(error.localizedDescription)
         activityIndicator.stopAnimating()
-        
     }
 }

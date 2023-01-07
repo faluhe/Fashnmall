@@ -140,7 +140,7 @@ extension MainViewController: UISearchBarDelegate{
         let urlString = url.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
         
         if let searchUrl = URL(string: urlString ?? "" ){
-        webView.load(URLRequest(url: searchUrl))
+            webView.load(URLRequest(url: searchUrl))
         }
         
         webView.allowsBackForwardNavigationGestures = true

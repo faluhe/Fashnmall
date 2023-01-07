@@ -4,7 +4,7 @@
 //
 //  Created by Ismailov Farrukh on 2021/4/27.
 //
- 
+
 import UIKit
 
 class SpinnerViewController: UIViewController {
@@ -30,5 +30,5 @@ class SpinnerViewController: UIViewController {
     }
     
     
-   
+    
 }
